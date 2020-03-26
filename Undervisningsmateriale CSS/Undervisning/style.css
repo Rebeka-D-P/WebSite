@@ -16,29 +16,14 @@ h2
     background-color:rgb(225, 225, 225);
 }
 
-body
+body, main, section, p, a
 {
     background-color:rgb(238, 238, 238);
 }
 
-header
+header, footer
 {
     background-color:gainsboro;
-}
-
-main
-{
-    background-color:rgb(238, 238, 238);
-}
-
-section
-{
-    background-color:rgb(238, 238, 238);
-}
-
-p
-{
-    background-color:rgb(238, 238, 238);
 }
 
 ul
@@ -49,14 +34,4 @@ ul
 li
 {
     background-color:lightgray;
-}
-
-a
-{
-    background-color:rgb(238, 238, 238);
-}
-
-footer
-{
-    background-color:gainsboro;
 }
