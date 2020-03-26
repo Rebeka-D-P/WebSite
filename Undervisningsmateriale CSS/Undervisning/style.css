@@ -1,44 +1,44 @@
 h1
 {
     color: Midnightblue;
-    background-color:greenyellow;
+    background-color:gainsboro;
 }
 
 article
 {
     color: DarkSlateGrey;
-    background-color:bisque;
+    background-color:rgb(238, 238, 238);
 }
 
 h2
 {
     color: SteelBlue;
-    background-color:lightyellow;
+    background-color:rgb(225, 225, 225);
 }
 
 body
 {
-    background-color:gainsboro;
+    background-color:rgb(238, 238, 238);
 }
 
 header
 {
-    background-color:orangered;
+    background-color:gainsboro;
 }
 
 main
 {
-    background-color:gold;
+    background-color:rgb(238, 238, 238);
 }
 
 section
 {
-    background-color:mediumpurple;
+    background-color:rgb(238, 238, 238);
 }
 
 p
 {
-    background-color:yellow;
+    background-color:rgb(238, 238, 238);
 }
 
 ul
@@ -48,15 +48,15 @@ ul
 
 li
 {
-    background-color:tomato;
+    background-color:lightgray;
 }
 
 a
 {
-    background-color:rosybrown;
+    background-color:rgb(238, 238, 238);
 }
 
 footer
 {
-    background-color:plum;
+    background-color:gainsboro;
 }
