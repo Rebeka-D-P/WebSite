@@ -1,14 +1,62 @@
 h1
 {
     color: Midnightblue;
+    background-color:greenyellow;
 }
 
 article
 {
     color: DarkSlateGrey;
+    background-color:bisque;
 }
 
 h2
 {
     color: SteelBlue;
+    background-color:lightyellow;
+}
+
+body
+{
+    background-color:gainsboro;
+}
+
+header
+{
+    background-color:orangered;
+}
+
+main
+{
+    background-color:gold;
+}
+
+section
+{
+    background-color:mediumpurple;
+}
+
+p
+{
+    background-color:yellow;
+}
+
+ul
+{
+    background-color:silver;
+}
+
+li
+{
+    background-color:tomato;
+}
+
+a
+{
+    background-color:rosybrown;
+}
+
+footer
+{
+    background-color:plum;
 }
