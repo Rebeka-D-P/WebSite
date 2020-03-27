@@ -6,9 +6,21 @@ article
 h1
 {
     color: rgb(161, 31, 31);
+    background-color: #038C7F;
 }
 
 h2
 {
     color: rgb(18, 129, 46);
+    background-color: #04BF8A;
+}
+
+header
+{
+    background-color: #8C4820;
+}
+
+main
+{
+    background-color: #ADC0D9;
 }
