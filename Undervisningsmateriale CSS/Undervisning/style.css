@@ -2,6 +2,11 @@ h1
 {
     color: Midnightblue;
     background-color:gainsboro;
+    font-weight: 800;
+    font-size: 36px;
+    text-transform: capitalize;
+    text-align: center;
+    text-shadow: -2px -2px 2px silver; 
 }
 
 article
@@ -14,6 +19,11 @@ h2
 {
     color: SteelBlue;
     background-color:rgb(225, 225, 225);
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: -2px -2px 2px silver;
 }
 
 body, main, section, p, a
@@ -35,9 +45,21 @@ ul
 li
 {
     background-color:lightgray;
+    line-height: 1.8;
 }
 
 h1, h2, h3
 {
     font-family: 'Roboto', sans-serif;
+}
+
+h3
+{
+    font-size: 24px;
+}
+
+a
+{
+    text-decoration: none;
+    color: rgb(110, 201, 201);
 }
