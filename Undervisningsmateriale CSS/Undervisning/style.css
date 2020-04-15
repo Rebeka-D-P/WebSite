@@ -36,6 +36,8 @@ header, footer
 {
     background-color:tomato;
     height: 50px;
+    text-align: center;
+    line-height: 50px;
 }
 
 ul
@@ -69,4 +71,31 @@ a
 {
     margin: 0;
     padding: 0;
+}
+
+main
+{
+    width: 1000px;
+    margin: auto;
+}
+
+img
+{
+    width: 300px;
+    border-radius: 10px;
+}
+
+body
+{
+    line-height: 1.8;
+}
+
+h1, h2
+{
+    margin: 20px 0px;
+}
+
+p
+{
+    margin-bottom: 40px;
 }
