@@ -22,13 +22,16 @@ h1
 {
     color: rgb(161, 31, 31);
     background-color: #038C7F;
-    font-family: 'Noto Sans JP', serif;
 }
 
 h2
 {
     color: rgb(18, 129, 46);
     background-color: #04BF8A;
+}
+
+h1, h2
+{
     font-family: 'Noto Sans JP', serif;
 }
 
