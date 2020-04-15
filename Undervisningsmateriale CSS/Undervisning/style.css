@@ -34,7 +34,8 @@ body, main, section, p, a
 
 header, footer
 {
-    background-color:gainsboro;
+    background-color:tomato;
+    height: 50px;
 }
 
 ul
@@ -62,4 +63,10 @@ a
 {
     text-decoration: none;
     color: rgb(110, 201, 201);
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
 }
