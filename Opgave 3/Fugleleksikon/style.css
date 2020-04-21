@@ -23,7 +23,6 @@ main
 section
 {
     background-color: #A6775B;
-    text-indent: 25px;
 }
 
 article
@@ -35,7 +34,6 @@ h1
 {
     color: rgb(161, 31, 31);
     background-color: #038C7F;
-    text-indent: 25px;
 }
 
 h2
@@ -44,12 +42,22 @@ h2
     background-color: #04BF8A;
 }
 
+p
+{
+    font-family: Sanchez, serif;
+}
+
+img
+{
+    border-radius: 50px;
+}
+
 h1, h2
 {
     font-family: 'Noto Sans JP', serif;
 }
 
-p
+section, h1
 {
-    font-family: Sanchez, serif;
+    text-indent: 25px;
 }
