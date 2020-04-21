@@ -23,6 +23,7 @@ main
 section
 {
     background-color: #A6775B;
+    text-indent: 25px;
 }
 
 article
@@ -34,6 +35,7 @@ h1
 {
     color: rgb(161, 31, 31);
     background-color: #038C7F;
+    text-indent: 25px;
 }
 
 h2
