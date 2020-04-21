@@ -14,6 +14,12 @@ body
     background-color: #ADC0D9;
 }
 
+main
+{
+    width: 1000px;
+    margin: auto;
+}
+
 section
 {
     background-color: #A6775B;
