@@ -4,11 +4,6 @@
     padding: 0;
 }
 
-body
-{
-    line-height: 1.8;
-}
-
 main
 {
     width: 1000px;
@@ -18,29 +13,23 @@ main
 article
 {
     color: DarkSlateGrey;
-    background-color:rgb(238, 238, 238);
 }
 
 h1
 {
     color: Midnightblue;
-    background-color:gainsboro;
+    background-color: gainsboro;
     font-weight: 800;
     font-size: 36px;
     text-transform: capitalize;
-    text-align: center;
-    text-shadow: -2px -2px 2px silver; 
 }
 
 h2
 {
     color: SteelBlue;
-    background-color:rgb(225, 225, 225);
+    background-color: rgb(225, 225, 225);
     font-weight: 600;
     font-size: 30px;
-    text-transform: uppercase;
-    text-align: center;
-    text-shadow: -2px -2px 2px silver;
 }
 
 h3
@@ -53,11 +42,6 @@ p
     margin-bottom: 40px;
 }
 
-a
-{
-    text-decoration: none;
-}
-
 img
 {
     width: 300px;
@@ -66,31 +50,38 @@ img
 
 ul
 {
-    background-color:silver;
+    background-color: silver;
     list-style-position: inside;
 }
 
 li
 {
-    background-color:lightgray;
+    background-color: lightgray;
+}
+
+body, li
+{
     line-height: 1.8;
 }
 
 h1, h2
 {
     margin: 20px 0px;
+    text-shadow: -2px -2px 2px silver;
 }
 
 header, footer
 {
-    background-color:tomato;
+    background-color: tomato;
     height: 50px;
-    text-align: center;
     line-height: 50px;
-    text-transform: uppercase;
     font-size: 20px;
     color: white;
-    
+}
+
+header, h2, footer
+{
+    text-transform: uppercase;
 }
 
 header a, footer a
@@ -105,8 +96,17 @@ h1, h2, h3
     font-family: 'Roboto', sans-serif;
 }
 
+header, footer, h1, h2
+{
+    text-align: center;
+}
+
 body, main, section, p, a
 {
-    background-color:rgb(238, 238, 238);
     font-family: Arial, Helvetica, sans-serif;
+}
+
+body, main, section, article, p, a
+{
+    background-color: rgb(238, 238, 238);
 }
