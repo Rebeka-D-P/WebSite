@@ -1,112 +1,112 @@
-*
+*                   /* This dot is the highest and nothing can go higher */
 {
-    margin: 0;
-    padding: 0;
+    margin: 0;      /* Resets the margin on everything */
+    padding: 0;     /* Resets the padding on everything */
 }
 
 main
 {
-    width: 1000px;
-    margin: auto;
+    width: 1000px;  /* Gives the wide */
+    margin: auto;   /* Adjusts to center */
 }
 
 article
 {
-    color: DarkSlateGrey;
+    color: DarkSlateGrey;   /* Gives the text's color for all in the acticle */
 }
 
 h1
 {
-    color: Midnightblue;
-    background-color: gainsboro;
-    font-weight: 800;
-    font-size: 36px;
-    text-transform: capitalize;
+    color: Midnightblue;            /* Gives the text's color in all h1 */
+    background-color: gainsboro;    /* Gives the colorbox from behind the h1 text */
+    font-weight: 800;                 /* How thick the h1 text should be */
+    font-size: 36px;                  /* How big the text should be */
+    text-transform: capitalize;       /* Makes each word start with a big letter */
 }
 
 h2
 {
-    color: SteelBlue;
-    background-color: rgb(225, 225, 225);
-    font-weight: 600;
-    font-size: 30px;
+    color: SteelBlue;                       /* Gives the text's color in all h2 */
+    background-color: rgb(225, 225, 225);   /* Gives the colorbox from behind the h2 text */
+    font-weight: 600;                         /* How thick the h2 text should be */
+    font-size: 30px;                          /* How big the text in h2 should be */
 }
 
 h3
 {
-    font-size: 24px;
+    font-size: 24px;    /* How big the h3 text should be */
 }
 
 p
 {
-    margin-bottom: 40px;
+    margin-bottom: 40px;    /* How much the distance box should be from the bottom */
 }
 
 img
 {
-    width: 300px;
-    border-radius: 10px;
+    width: 300px;           /* How wide the image should be */
+    border-radius: 10px;    /* How much the image on the corner should curve */
 }
 
-ul
+ul                                  /* This is unordered list which means with dots */
 {
-    background-color: silver;
-    list-style-position: inside;
+    background-color: silver;   /* Gives the colorbox, but is else covered by li's background-color */
+    list-style-position: inside;  /* Where the dots should be positioned */
 }
 
-li
+li                                  /* This is a list. It defines a list item */
 {
-    background-color: lightgray;
+    background-color: lightgray;  /* Gives the colorbox from behind li's text */
 }
 
 body, li
 {
-    line-height: 1.8;
+    line-height: 1.8;   /* Gives the distance between the text */
 }
 
 h1, h2
 {
-    margin: 20px 0px;
-    text-shadow: -2px -2px 2px silver;
+    margin: 20px 0px;                       /* How the distance should be between the other texts. How much extra/less width should the box be */
+    text-shadow: -2px -2px 2px silver;    /* How the shadow should be: Move vertical, move horizontal, how blury */
 }
 
 header, footer
 {
-    background-color: tomato;
-    height: 50px;
-    line-height: 50px;
-    font-size: 20px;
-    color: white;
+    background-color: tomato;       /* Gives the color box behind the header and footer text */
+    height: 50px;                     /* How high the box should be */
+    line-height: 50px;                /*  */
+    font-size: 20px;                  /* The size of the text */
+    color: white;                   /* The color fo the text (Which isn't visible, cause it's a link) */
 }
 
 header, h2, footer
 {
-    text-transform: uppercase;
+    text-transform: uppercase;      /* Makes all the letters big */
 }
 
 header a, footer a
 {
-    color: black;
-    text-decoration: none;
-    margin: 0, 20px;
+    color: black;           /* Gives all the link text's color in footer and header */
+    text-decoration: none;    /* Removes the underlining */
+    margin: 0 20px;           /* The distance between the links */
 }
 
 h1, h2, h3
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;  /* Giving what kind of font it should use */
 }
 
 header, footer, h1, h2
 {
-    text-align: center;
+    text-align: center;     /* Moves the text to the center */
 }
 
 body, main, section, p, a
 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;  /* Giving what kind of font it should use */
 }
 
 body, main, section, article, p, a
 {
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(238, 238, 238);   /* Gives the color box behind the text */
 }
