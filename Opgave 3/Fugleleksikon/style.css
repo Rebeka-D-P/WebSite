@@ -1,60 +1,60 @@
-*
+*                                           /* The highest rank at the tags */
 {
-    margin: 0;
-    padding: 0;
+    margin: 0;                              /* Reseting to 0 */
+    padding: 0;                             /* Reseting to 0 */
 }
 
 header
 {
-    background-color: #8C4820;
+    background-color: #8C4820;            /* The color of the box */
 }
 
 body
 {
-    background-color: #ADC0D9;
+    background-color: #ADC0D9;            /* The color of the box */
 }
 
 main
 {
-    width: 1000px;
-    margin: auto;
+    width: 1000px;                          /* The given lenght */
+    margin: auto;                           /* Moving the box to the center */
 }
 
 section
 {
-    background-color: #A6775B;
+    background-color: #A6775B;            /* The color of the box */
 }
 
 article
 {
-    color: midnightblue;
+    color: midnightblue;                  /* The color of the font */
 }
 
 h1
 {
-    color: rgb(161, 31, 31);
-    background-color: #038C7F;
+    color: rgb(161, 31, 31);              /* The color of the font */
+    background-color: #038C7F;            /* The color of the box */
 }
 
 h2
 {
-    color: rgb(18, 129, 46);
-    background-color: #04BF8A;
+    color: rgb(18, 129, 46);              /* The color of the font */
+    background-color: #04BF8A;            /* The color of the box */
 }
 
 p
 {
-    font-family: Sanchez, serif;
-    line-height: 1.8;
-    padding-left: 20px;
+    font-family: Sanchez, serif;            /* A given font style */
+    line-height: 1.8;                       /* The given gap between the lines */
+    padding-left: 20px;                     /* The inner box from the left */
 }
 
 img
 {
-    border-radius: 50px;
+    border-radius: 50px;                    /* The curves on the corners */
 }
 
 h1, h2
 {
-    font-family: 'Noto Sans JP', serif;
+    font-family: 'Noto Sans JP', serif;     /* A given font style */
 }
