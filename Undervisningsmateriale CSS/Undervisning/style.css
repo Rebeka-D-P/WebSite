@@ -110,3 +110,13 @@ body, main, section, article, p, a
 {
     background-color: rgb(238, 238, 238);   /* Gives the color box behind the text */
 }
+
+.code li
+{
+    list-style-type: none;
+}
+
+.code li ul
+{
+    padding-left: 20px;
+}
