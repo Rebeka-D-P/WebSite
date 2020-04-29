@@ -88,8 +88,8 @@ header a, footer a
 {
     color: black;           /* Gives all the link text's color in footer and header */
     text-decoration: none;    /* Removes the underlining */
-    margin: 0 20px;           /* The distance between the links */
-    display: inline-block;
+    padding: 0 20px;           /* The distance between the links */
+    display: inline-block;      /* Makes the box fill out on top and bottom */
 }
 
 h1, h2, h3
@@ -112,7 +112,7 @@ body, main, section, article, p
     background-color: rgb(238, 238, 238);   /* Gives the color box behind the text */
 }
 
-.code li
+.code li                        /* This is class. It makes it able to style certain certain tags in html */
 {
     list-style-type: none;      /* Removes the dots in the list */
 }
@@ -127,7 +127,7 @@ body, main, section, article, p
     width: 100%;        /* Gives the picture filling the entire width on the page */
 }
 
-a:visited
+a:visited                 /* This is pseudo class. It has up to 3 differnt kinds of states to use */
 {
     color: darkred;     /* When clicked on link it will show this chosen color */
 }
