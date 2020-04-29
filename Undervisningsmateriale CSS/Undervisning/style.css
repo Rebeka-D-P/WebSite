@@ -74,7 +74,7 @@ header, footer
 {
     background-color: tomato;       /* Gives the color box behind the header and footer text */
     height: 50px;                     /* How high the box should be */
-    line-height: 50px;                /*  */
+    line-height: 50px;                /* The distance of the text, but in this case it moves just down for being in center */
     font-size: 20px;                  /* The size of the text */
     color: white;                   /* The color fo the text (Which isn't visible, cause it's a link) */
 }
@@ -113,20 +113,20 @@ body, main, section, article, p, a
 
 .code li
 {
-    list-style-type: none;
+    list-style-type: none;      /* Removes the dots in the list */
 }
 
 .code li ul
 {
-    padding-left: 20px;
+    padding-left: 20px;     /* Moves the text to the right */
 }
 
 a:visited
 {
-    color: darkred;
+    color: darkred;     /* When clicked on link it will show this chosen color */
 }
 
 a:hover
 {
-    color: darkorchid;
+    color: darkorchid;  /* When moving mouse to the link it show this chosen color */
 }
