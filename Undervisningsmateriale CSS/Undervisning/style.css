@@ -121,6 +121,11 @@ body, main, section, article, p, a
     padding-left: 20px;     /* Moves the text to the right */
 }
 
+.fullwidth
+{
+    width: 100%;
+}
+
 a:visited
 {
     color: darkred;     /* When clicked on link it will show this chosen color */
