@@ -89,6 +89,7 @@ header a, footer a
     color: black;           /* Gives all the link text's color in footer and header */
     text-decoration: none;    /* Removes the underlining */
     margin: 0 20px;           /* The distance between the links */
+    display: inline-block;
 }
 
 h1, h2, h3
@@ -106,7 +107,7 @@ body, main, section, p, a
     font-family: Arial, Helvetica, sans-serif;  /* Giving what kind of font it should use */
 }
 
-body, main, section, article, p, a
+body, main, section, article, p
 {
     background-color: rgb(238, 238, 238);   /* Gives the color box behind the text */
 }
@@ -134,4 +135,9 @@ a:visited
 a:hover
 {
     color: darkorchid;  /* When moving mouse to the link it show this chosen color */
+}
+
+header a:hover
+{
+    background-color: rgba(255, 255, 255, 0.3);     /* Gives the color box behind the text when mouse moving to it */
 }
