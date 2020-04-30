@@ -49,12 +49,12 @@ p
     padding-left: 20px;                     /* The inner box from the left */
 }
 
-h1, h2
+h1, h2                                      /* For multiple with the same styling */
 {
     font-family: 'Noto Sans JP', serif;     /* A given font style */
 }
 
-section img
+section img                                 /* Underlining to certain tags */
 {
     border-radius: 50px;                    /* The curves on the corners */
 }
