@@ -55,6 +55,7 @@ li
 h1, h2                                      /* For multiple with the same styling */
 {
     font-family: 'Noto Sans JP', serif;     /* A given font style */
+    text-transform: uppercase;              /* Gives all big letters */
 }
 
 p, li
