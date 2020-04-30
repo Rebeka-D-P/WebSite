@@ -44,14 +44,23 @@ h2
 
 p
 {
-    font-family: Sanchez, serif;            /* A given font style */
-    line-height: 1.8;                       /* The given gap between the lines */
     padding-left: 20px;                     /* The inner box from the left */
+}
+
+li
+{
+    margin-left: 20px;                      /* The outer box from the left */
 }
 
 h1, h2                                      /* For multiple with the same styling */
 {
     font-family: 'Noto Sans JP', serif;     /* A given font style */
+}
+
+p, li
+{
+    font-family: Sanchez, serif;            /* A given font style */
+    line-height: 1.8;                       /* The given gap between the lines */
 }
 
 section img                                 /* Underlining to certain tags */
