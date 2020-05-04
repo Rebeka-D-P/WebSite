@@ -34,14 +34,14 @@ h1
 {
     color: rgb(161, 31, 31);              /* The color of the font */
     background-color: #038C7F;            /* The color of the box */
-    font-size: 36px;
+    font-size: 36px;                        /* The size of the font */
 }
 
 h2
 {
     color: rgb(18, 129, 46);              /* The color of the font */
     background-color: #04BF8A;            /* The color of the box */
-    font-size: 27px;
+    font-size: 27px;                        /* The size of the font */
 }
 
 p
