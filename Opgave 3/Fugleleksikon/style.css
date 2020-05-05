@@ -44,6 +44,11 @@ h2
     font-size: 27px;                        /* The size of the font */
 }
 
+nav
+{
+    height: 50px;
+}
+
 p
 {
     padding-left: 20px;                     /* The inner box from the left */
@@ -52,6 +57,12 @@ p
 li
 {
     margin-left: 20px;                      /* The outer box from the left */
+}
+
+footer
+{
+    background-color: #8C4820;
+    height: 50px;
 }
 
 h1, h2                                      /* For multiple with the same styling */
