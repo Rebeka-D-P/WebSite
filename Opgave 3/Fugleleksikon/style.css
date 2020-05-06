@@ -92,8 +92,8 @@ p, li
 
 header img
 {
-    display: block;
-    margin: auto;
+    display: block;                         /* Turns the picture into a block to move around */
+    margin: auto;                           /* Moves it to the center */
 }
 
 section img                                 /* Underlining to certain tags */
