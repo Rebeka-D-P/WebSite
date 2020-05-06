@@ -4,6 +4,11 @@
     padding: 0;                             /* Reseting to 0 */
 }
 
+header
+{
+    padding: 0px 256px;                     /* Makes so only the link is on the picture */
+}
+
 body
 {
     background-color: #ADC0D9;            /* The color of the box */
