@@ -106,3 +106,8 @@ article, footer, nav a
 {
     color: midnightblue;                  /* The color of the font */
 }
+
+.birdimg
+{
+    float: left;
+}
