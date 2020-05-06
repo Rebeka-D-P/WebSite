@@ -49,6 +49,8 @@ nav                                         /* For the grouped links that can be
     height: 50px;                           /* The height of the box */
     background-color: #8C4820;            /* The color of the box */
     text-align: center;                     /* Moves text to center */
+    text-transform: uppercase;              /* Transforms text to only big letters */
+    font-size: 22px;                        /* Gives the size of the font */
 }
 
 a
@@ -73,6 +75,7 @@ footer                                      /* The block at the bottom and outsi
     line-height: 50px;                      /* Sets the text to center */
     text-align: center;                     /* Moves text to center */
     text-transform: uppercase;              /* Transform text to only big letters */
+    font-size: 22px;                        /* Gives the size of the font */
 }
 
 h1, h2                                      /* For multiple with the same styling */
