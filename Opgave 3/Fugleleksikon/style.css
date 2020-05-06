@@ -4,11 +4,6 @@
     padding: 0;                             /* Reseting to 0 */
 }
 
-header
-{
-    background-color: #8C4820;            /* The color of the box */
-}
-
 body
 {
     background-color: #ADC0D9;            /* The color of the box */
@@ -17,17 +12,11 @@ body
 main
 {
     width: 1000px;                          /* The given lenght */
-    margin: auto;                           /* Moving the box to the center */
 }
 
 section
 {
     background-color: #A6775B;            /* The color of the box */
-}
-
-article
-{
-    color: midnightblue;                  /* The color of the font */
 }
 
 h1
@@ -44,20 +33,6 @@ h2
     font-size: 27px;                        /* The size of the font */
 }
 
-nav                                         /* For the grouped links that can be searched */
-{
-    height: 50px;                           /* The height of the box */
-    background-color: #8C4820;            /* The color of the box */
-    text-align: center;                     /* Moves text to center */
-    text-transform: uppercase;              /* Transforms text to only big letters */
-    font-size: 22px;                        /* Gives the size of the font */
-}
-
-a
-{
-    line-height: 50px;                      /* Sets the text to center */
-}
-
 p
 {
     padding-left: 20px;                     /* The inner box from the left */
@@ -68,21 +43,37 @@ li
     margin-left: 20px;                      /* The outer box from the left */
 }
 
-footer                                      /* The block at the bottom and outside of main */
+nav a                                       /* Underlining to certain tags */
 {
-    background-color: #8C4820;            /* The color of the box */
-    height: 50px;                           /* The height of the box */
-    line-height: 50px;                      /* Sets the text to center */
-    text-align: center;                     /* Moves text to center */
-    text-transform: uppercase;              /* Transform text to only big letters */
-    font-size: 22px;                        /* Gives the size of the font */
-    color: midnightblue;                  /* The color of the font */
+    text-decoration: none;                  /* Removing the underline */
+    padding: 0px 20px;                      /* Giving space to the two links. 0px (up, down) 20px (left, right) */
 }
 
-h1, h2                                      /* For multiple with the same styling */
+header img
+{
+    display: block;                         /* Turns the picture into a block to move around */
+}
+
+section img                                 
+{
+    border-radius: 50px;                    /* The curves on the corners */
+}
+
+nav, footer                                 /* For the grouped links that can be searched. The block at the bottom and outside of main */
+{
+    height: 50px;                           /* The height of the box */
+    text-align: center;                     /* Moves text to center */
+    font-size: 22px;                        /* Gives the size of the font */
+}
+
+a, footer                                   /* For multiple with the same styling */
+{
+    line-height: 50px;                      /* Sets the text to center */
+}
+
+h1, h2                                      
 {
     font-family: 'Noto Sans JP', serif;     /* A given font style */
-    text-transform: uppercase;              /* Gives all big letters */
 }
 
 p, li
@@ -91,18 +82,22 @@ p, li
     line-height: 1.8;                       /* The given gap between the lines */
 }
 
-nav a                                       /* Underlining to certain tags */
+header, nav, footer
 {
-    text-decoration: none;                  /* Removing the underline */
+    background-color: #8C4820;            /* The color of the box */
 }
 
-header img
+nav, h1, h2, footer
 {
-    display: block;                         /* Turns the picture into a block to move around */
+    text-transform: uppercase;              /* Gives all big letters */
+}
+
+main, header img
+{
     margin: auto;                           /* Moves it to the center */
 }
 
-section img                                 
+article, footer, nav a
 {
-    border-radius: 50px;                    /* The curves on the corners */
+    color: midnightblue;                  /* The color of the font */
 }
