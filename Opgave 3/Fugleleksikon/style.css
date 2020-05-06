@@ -90,6 +90,12 @@ p, li
     line-height: 1.8;                       /* The given gap between the lines */
 }
 
+header img
+{
+    display: block;
+    margin: auto;
+}
+
 section img                                 /* Underlining to certain tags */
 {
     border-radius: 50px;                    /* The curves on the corners */
