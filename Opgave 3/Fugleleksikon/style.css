@@ -47,8 +47,8 @@ h2
 nav                                         /* For the grouped links that can be searched */
 {
     height: 50px;                           /* The height of the box */
-    background-color: #8C4820;
-    text-align: center;
+    background-color: #8C4820;            /* The color of the box */
+    text-align: center;                     /* Moves text to center */
 }
 
 a
@@ -71,8 +71,8 @@ footer                                      /* The block at the bottom and outsi
     background-color: #8C4820;            /* The color of the box */
     height: 50px;                           /* The height of the box */
     line-height: 50px;                      /* Sets the text to center */
-    text-align: center;
-    text-transform: uppercase;
+    text-align: center;                     /* Moves text to center */
+    text-transform: uppercase;              /* Transform text to only big letters */
 }
 
 h1, h2                                      /* For multiple with the same styling */
