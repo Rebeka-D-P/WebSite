@@ -76,6 +76,7 @@ footer                                      /* The block at the bottom and outsi
     text-align: center;                     /* Moves text to center */
     text-transform: uppercase;              /* Transform text to only big letters */
     font-size: 22px;                        /* Gives the size of the font */
+    color: midnightblue;                  /* The color of the font */
 }
 
 h1, h2                                      /* For multiple with the same styling */
