@@ -91,13 +91,18 @@ p, li
     line-height: 1.8;                       /* The given gap between the lines */
 }
 
+nav a                                       /* Underlining to certain tags */
+{
+    text-decoration: none;                  /* Removing the underline */
+}
+
 header img
 {
     display: block;                         /* Turns the picture into a block to move around */
     margin: auto;                           /* Moves it to the center */
 }
 
-section img                                 /* Underlining to certain tags */
+section img                                 
 {
     border-radius: 50px;                    /* The curves on the corners */
 }
