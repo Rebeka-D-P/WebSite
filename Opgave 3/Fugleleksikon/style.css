@@ -1,114 +1,121 @@
-*                                           /* The highest rank at the tags */
+*                                                   /* The highest rank at the tags */
 {
-    margin: 0;                              /* Reseting to 0 */
-    padding: 0;                             /* Reseting to 0 */
+    margin: 0;                                      /* Reseting to 0 */
+    padding: 0;                                     /* Reseting to 0 */
 }
 
 header
 {
-    padding: 0px 256px;                     /* Makes so only the link is on the picture */
+    padding: 0px 256px;                             /* Makes so only the link is on the picture */
 }
 
 body
 {
-    background-color: #ADC0D9;            /* The color of the box */
+    background-color: #ADC0D9;                    /* The color of the box */
 }
 
 main
 {
-    width: 1000px;                          /* The given lenght */
+    width: 1000px;                                  /* The given lenght */
 }
 
 section
 {
-    background-color: #A6775B;            /* The color of the box */
+    background-color: #A6775B;                    /* The color of the box */
 }
 
 h1
 {
-    color: rgb(161, 31, 31);              /* The color of the font */
-    background-color: #038C7F;            /* The color of the box */
-    font-size: 36px;                        /* The size of the font */
+    color: rgb(161, 31, 31);                      /* The color of the font */
+    background-color: #038C7F;                    /* The color of the box */
+    font-size: 36px;                                /* The size of the font */
 }
 
 h2
 {
-    color: rgb(18, 129, 46);              /* The color of the font */
-    background-color: #04BF8A;            /* The color of the box */
-    font-size: 27px;                        /* The size of the font */
+    color: rgb(18, 129, 46);                      /* The color of the font */
+    background-color: #04BF8A;                    /* The color of the box */
+    font-size: 27px;                                /* The size of the font */
 }
 
 p
 {
-    padding-left: 20px;                     /* The inner box from the left */
+    padding-left: 20px;                             /* The inner box from the left */
 }
 
 li
 {
-    margin-left: 20px;                      /* The outer box from the left */
+    margin-left: 20px;                              /* The outer box from the left */
 }
 
-nav a                                       /* Underlining to certain tags */
+nav a                                               /* Underlining to certain tags */
 {
-    text-decoration: none;                  /* Removing the underline */
-    padding: 0px 20px;                      /* Giving space to the two links. 0px (up, down) 20px (left, right) */
+    text-decoration: none;                          /* Removing the underline */
+    padding: 0px 20px;                              /* Giving space to the two links. 0px (up, down) 20px (left, right) */
 }
 
 header img
 {
-    display: block;                         /* Turns the picture into a block to move around */
+    display: block;                                 /* Turns the picture into a block to move around */
 }
 
 section img                                 
 {
-    border-radius: 50px;                    /* The curves on the corners */
+    border-radius: 50px;                            /* The curves on the corners */
 }
 
-nav, footer                                 /* For the grouped links that can be searched. The block at the bottom and outside of main */
+nav, footer                                         /* For the grouped links that can be searched. The block at the bottom and outside of main */
 {
-    height: 50px;                           /* The height of the box */
-    text-align: center;                     /* Moves text to center */
-    font-size: 22px;                        /* Gives the size of the font */
+    height: 50px;                                   /* The height of the box */
+    text-align: center;                             /* Moves text to center */
+    font-size: 22px;                                /* Gives the size of the font */
 }
 
-a, footer                                   /* For multiple with the same styling */
+a, footer                                           /* For multiple with the same styling */
 {
-    line-height: 50px;                      /* Sets the text to center */
+    line-height: 50px;                              /* Sets the text to center */
 }
 
 h1, h2                                      
 {
-    font-family: 'Noto Sans JP', serif;     /* A given font style */
+    font-family: 'Noto Sans JP', serif;             /* A given font style */
 }
 
 p, li
 {
-    font-family: Sanchez, serif;            /* A given font style */
-    line-height: 1.8;                       /* The given gap between the lines */
+    font-family: Sanchez, serif;                    /* A given font style */
+    line-height: 1.8;                               /* The given gap between the lines */
 }
 
 header, nav, footer
 {
-    background-color: #8C4820;            /* The color of the box */
+    background-color: #8C4820;                    /* The color of the box */
 }
 
 nav, h1, h2, footer
 {
-    text-transform: uppercase;              /* Gives all big letters */
+    text-transform: uppercase;                      /* Gives all big letters */
 }
 
 main, header img
 {
-    margin: auto;                           /* Moves it to the center */
+    margin: auto;                                   /* Moves it to the center */
 }
 
 article, footer, nav a
 {
-    color: midnightblue;                  /* The color of the font */
+    color: midnightblue;                          /* The color of the font */
 }
 
-.birdimg                                    /* Class with a given name to activate tags with the same class */
+.birdfacts                                          /* Class with a given name to activate tags with the same class */
 {
-    float: left;                            /* Moves to left while other boxes can be next to it */
-    margin-right: 20px;                     /* Fills to the right, so text won't be in picture */
+    height: 212px;                                  /* The given height, so it won't overlap the title */
+    background-color: rgb(255, 255, 255, 0.35);   /* Makes the block lighter */
+    padding: 10px;                                  /* Gives space around it */
+}
+
+.birdimg
+{
+    float: left;                                    /* Moves to left while other boxes can be next to it */
+    margin-right: 20px;                             /* Moves to the right, so text won't be in picture */
 }
