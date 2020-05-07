@@ -24,6 +24,11 @@ section
     background-color: #A6775B;                    /* The color of the box */
 }
 
+nav                                                 /*For the grouped links that can be searched. */
+{
+    display: inline-block;                          /* Moves links to side while bgc is only around links */
+}
+
 h1
 {
     color: rgb(161, 31, 31);                      /* The color of the font */
@@ -64,7 +69,7 @@ section img
     border-radius: 50px;                            /* The curves on the corners */
 }
 
-nav, footer                                         /* For the grouped links that can be searched. The block at the bottom and outside of main */
+nav, footer                                         /* The block at the bottom and outside of main */
 {
     height: 50px;                                   /* The height of the box */
     text-align: center;                             /* Moves text to center */
