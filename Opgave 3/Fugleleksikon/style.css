@@ -116,7 +116,7 @@ article, footer, nav a
 .birdfacts                                          /* Class with a given name to activate tags with the same class */
 {
     height: 212px;                                  /* The given height, so it won't overlap the title */
-    background-color: rgb(255, 255, 255, 0.35);   /* Makes the block lighter */
+    background-color: rgba(255, 255, 255, 0.35);  /* Makes the block lighter */
     padding: 10px;                                  /* Gives space around it */
 }
 
@@ -124,4 +124,14 @@ article, footer, nav a
 {
     float: left;                                    /* Moves to left while other boxes can be next to it */
     margin-right: 20px;                             /* Moves to the right, so text won't be in picture */
+}
+
+nav a:hover                                         /* Pseudo-class. One of the 3 special state */
+{
+    background-color: rgba(255, 255, 255, 0.3);   /* When hover, box turns this color */
+}
+
+img:hover
+{
+    opacity: 0.8;                                   /* When hover, image slightly transparent */
 }
