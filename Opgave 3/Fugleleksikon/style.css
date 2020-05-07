@@ -27,6 +27,7 @@ section
 nav                                                 /*For the grouped links that can be searched. */
 {
     display: inline-block;                          /* Moves links to side while bgc is only around links */
+    width: 100%;                                    /* Fills the entire width */
 }
 
 h1
